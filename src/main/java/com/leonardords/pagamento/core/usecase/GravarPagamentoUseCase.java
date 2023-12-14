@@ -1,0 +1,10 @@
+package com.leonardords.pagamento.core.usecase;
+
+import com.leonardords.pagamento.core.domain.Pagamento;
+import com.leonardords.pagamento.core.usecase.dto.CriarPagamentoData;
+import java.util.Map;
+
+public interface GravarPagamentoUseCase {
+
+  Pagamento gravarPagamento(Map<String, String> headers, CriarPagamentoData data);
+}
