@@ -8,5 +8,5 @@ import lombok.Data;
 public class Pagamento {
 
   private String mensagem;
-  private String origem;
+  private Boolean sucesso;
 }
