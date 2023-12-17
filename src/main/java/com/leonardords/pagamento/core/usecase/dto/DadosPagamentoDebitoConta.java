@@ -15,7 +15,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-public class DebitoConta {
+public class DadosPagamentoDebitoConta implements DadosPagamento {
 
   @NotNull(message = "O campo codigoBanco não pode ser vazio.")
   private Integer codigoBanco;

@@ -15,7 +15,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-public class Cartao {
+public class DadosPagamentoCartao implements DadosPagamento {
 
   @NotNull(message = "O campo emissor não pode ser vazio.")
   private Emissor emissor;
